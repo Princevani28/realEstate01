@@ -1,0 +1,655 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* home-page-starts */
+a.navbar-brand {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 400;
+}
+.nav-bar-section a.nav-link {
+  font-size: 19px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin: 0px 20px;
+  color: black;
+  position: sticky;
+}
+section.Apartment-section {
+    margin-top: 100px;
+}
+section.Apartment-section .apartment-col {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+section.Apartment-section h1.apartment-title {
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.slider-image {
+  width: 100%;
+  height: 650px;
+}
+.stay-image {
+  background: url("./images/image_-_100b067fb.webp");
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+section.stay-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+}
+
+section.specialize-section {
+  margin-top: 100px;
+}
+
+section.specialize-section img.house-img {
+  width: 100%;
+  border-top-left-radius: 19px;
+  border-bottom-right-radius: 19px;
+}
+
+section.property-section {
+  margin-top: 80px;
+}
+
+section.property-section h1.property-text {
+  text-align: center;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  color: rgba(48, 52, 65, 1);
+}
+
+section.property-section {
+  margin-top: 80px;
+  background-color: #f0f4f7;
+  padding: 70px 0px 70px 0px;
+}
+
+section.property-section p.property-des {
+  text-align: center;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+section.property-section img.property-img {
+  width: 100%;
+  height: 350px;
+}
+
+h5.property-heading {
+  text-align: start;
+  font-size: 20px;
+  margin-top: 15px;
+  text-transform: capitalize;
+  color: rgba(48, 52, 65, 1);
+}
+
+section.property-section img.property-img {
+  width: 100%;
+  height: 280px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.form-image {
+  background-image: url("./images/image-1-min.jpg");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-section .form-color {
+  background-color: white;
+  padding: 17px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 146px;
+}
+
+.stay-image .view-offer {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 7px 38px;
+  border-radius: 3px;
+  text-transform: capitalize;
+  font-size: 18px;
+  width: 50%;
+  height: 45px;
+}
+
+.apartment-section img.apartment-image {
+  width: 100%;
+}
+
+section.apartment-section {
+  margin-top: 80px;
+}
+img.apartment-image-1 {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: -101%;
+  height: 559px;
+}
+
+.apartment-section img.apartment-image {
+  width: 100%;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+section.apartment-section h3.apartment-text {
+  position: absolute;
+  top: 172px;
+  bottom: 0;
+  left: 43px;
+  color: white;
+  text-transform: capitalize;
+  font-size: 35px;
+}
+
+section.apartment-section .apartment-background {
+  position: relative;
+}
+section.pricing-table {
+  margin-top: 100px;
+}
+.pricing-table .pricing-table-body {
+  text-align: center;
+  border: 1px solid black;
+  height: 450px;
+  width: 338px;
+  border-radius: 10px;
+}
+.pricing-table .pricing-table-body h2.pricing-price {
+  color: red;
+  padding-top: 30px;
+  font-size: 44px;
+  font-weight: 600;
+}
+.pricing-table .pricing-table-body ul.pricing-table-list {
+  list-style-type: none;
+  padding: 0;
+}
+.pricing-table .pricing-table-body p.pricing-plan {
+  font-size: 21px;
+  text-transform: capitalize;
+  font-weight: 400;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+  padding-bottom: 25px;
+}
+
+.pricing-table .pricing-table-body button.select-btn {
+  border: 2px solid red;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 17px;
+  text-transform: capitalize;
+  width: 80%;
+  height: 48px;
+  margin-top:20px;
+}
+.pricing-table .pricing-table-body button.select-btn:hover {
+  background-color: red;
+  color: white;
+}
+.pricing-table .pricing-table-body ul.pricing-table-list li {
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 400;
+}
+.pricing-table h1.pricing-table-top-heading {
+  text-transform: capitalize;
+}
+.pricing-table .services-text {
+  text-transform: capitalize;
+  font-size: 19px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+
+
+
+/* home-page-ends */
+/* about-us-page-starts */
+.about-us-img {
+  position: relative;
+}
+
+h1.about-us-text {
+  position: absolute;
+  color: white;
+  font-size: 55px;
+  text-transform: capitalize;
+  font-weight: 400;
+  transform: translate(-50%, -50%);
+  left: 18%;
+  top: 50%;
+}
+
+img.about-us-img {
+  width: 100%;
+  height: 206px;
+}
+
+/* about-us-page-ends */
+/* footer-starts */
+footer.footer-section {
+  background-color: #303441;
+  padding: 50px 0px 50px 0px;
+  margin-top: 100px;
+}
+
+.footer-section h4.footer-heading {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 28px;
+}
+
+.footer-section .footer-content {
+  color: white;
+  font-size: 13px;
+}
+
+.footer-section ul.footer-content {
+  color: white;
+  list-style-type: none;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.footer-section img.footer-logo {
+  width: 20%;
+}
+
+.footer-section p.footer-line {
+  border: 1px solid #ffffff1a;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.footer-section .social-media-links i {
+  background-color: #ffffff33;
+  width: 40px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  border-radius: 50px;
+  line-height: 38px;
+  font-size: 14px;
+  margin-right: 8px;
+}
+.footer-section p.copyright-text {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  font-size: 14px;
+  padding-top: 40px;
+}
+.footer-section .footer-content li {
+  height: 30px;
+}
+
+/* footer-ends */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  height: 420px;
+  padding-top:50px;
+}
+
+.form-section img.form-icons {
+  width: 100%;
+}
+.form-section h2.property-heading {
+  font-size: 24px;
+  color: #222222;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.form-section .img {
+  background-image: url("./images/image-1-min.jpg");
+  width: 50%;
+  height: 612px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+.form-section .form label {
+  display: inline-block;
+  margin-top: 16px;
+}
+.form-section .form .form-control:focus {
+  box-shadow: none;
+  border: 1px solid gray;
+}
+.form-section .real-estate-heading {
+    font-size: 39px;
+    text-transform: capitalize;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.form-section .form .btn-block {
+    width: 100%;
+    height: 47px;
+    font-size: 23px;
+    margin-top: 43px;
+}
+section.form-section {
+    margin-top: 100px;
+}
+.form-section .why-choose-col {
+    margin-left: 109px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/* about-us-page-starts */
+section.about-us-section {
+    margin-top: 80px;
+}
+/* about-us-page-ends */
+/* slider-css-starts */
+.slick-slider {
+    max-width: 88%;
+    margin: auto;
+    
+  }
+  
+  .slick-slide {
+    margin: 0 10px;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  img.slider-img {
+    width: 100%;
+    height: 271px;
+}
+h1.our-services-text {
+    text-align: center;
+    margin: 100px 0px 50px 0px;
+    text-transform: capitalize;
+}
+h3.slider-title {
+    font-size: 22px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 400;
+}
+/* slider-css-ends */
+.contact-us-form .form-group {
+    margin-bottom: 15px;
+}
+.form-section .form-control:focus {
+    box-shadow: none;
+    border: 1px solid black;
+}
+.form-section h1.contact-us-text {
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 400;
+  padding-bottom: 23px;
+}
+.form-section label {
+  padding-bottom: 4px;
+}
+.form-section .form-control {
+  border: 1px solid black;
+}
+.form-section img.contact-img {
+  width: 100%;
+  height: 460px;
+  border-radius: 4px;
+}
+
+
+/* homepage-mobile-view-starts */
+@media only screen and (max-width:767px){
+  html,body{
+    overflow-x: hidden;
+  }
+  .slider-image {
+    width: 100%;
+    height: auto;
+}
+section.Apartment-section h1.apartment-title {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+p.apartment-description {
+  text-align: justify;
+}
+.form-section .img {
+  width: 100%;
+ 
+}
+.form-section .real-estate-heading {
+  font-size: 27px;
+  margin-top: 38px;
+  text-align: center;
+}
+.form-section .why-choose-col {
+  margin-left: 0;
+  width: 100%;
+ 
+}
+.form-section img.form-icons {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  margin-top:40px;
+}
+.form-section h2.property-heading {
+  padding-top: 20px;
+}
+.why-choose-col {
+  text-align: center;
+  margin-top: 50px;
+}
+.footer-section img.footer-logo {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+.social-media-links {
+  text-align: center;
+  margin-top: 17px;
+}
+img.apartment-img {
+  width: 100%;
+  height: auto;
+}
+section.stay-image {
+   padding: 70px 0px;
+}
+section.stay-image {
+  height: auto;
+}
+}
+/* tab-view */
+@media only screen and (min-width:768px) and (max-width:1024px){
+ html,body{
+  overflow-x: hidden;
+ }
+ .slider-image {
+  width: 100%;
+  height: auto;
+}
+img.slider-img {
+  width: 100%;
+  height: 200px;
+}
+h3.slider-title {
+  font-size: 16px;
+ 
+}
+.form-section .why-choose-col {
+  margin-left: 0px;
+  width: 100%;
+}
+.form-section .img {
+  width: 100%;
+}
+.why-choose-col {
+  margin-top: 50px;
+}
+img.apartment-img {
+  width: 100%;
+  height: auto;
+}
+ .image-col{
+  display: block;
+  margin: auto;
+}
+section.Apartment-section h1.apartment-title {
+  font-size: 27px;
+}
+.apartment-section .apartment-description {
+  text-align: justify;
+}
+section.property-section img.property-img {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+}
+.form-section .img {
+width: 100%;
+  background-size: auto;
+}
+.form-section img.contact-img {
+  width: 100%;
+  height: auto;
+
+}
+.form-image-col {
+  display: block !important;
+  margin: auto !important;
+}
+}
+/* contact-page-starts */
+h1.contact-form-text {
+  text-transform: capitalize;
+  font-size: 35px;
+  font-weight: 500;
+}
+/* contact-page-ends */
+
+.contact-form {
+  max-width: 500px;
+  border-radius: 5px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  font-weight: bold;
+}
+#submitNotification {
+  display: none;
+  margin-top: 20px;
+}
+.btn-block {
+  margin-top: 17px;
+  width: 100%;
+  background-color: red;
+  border: none;
+  height: 45px;
+}
+.submit-btn-form {
+  width: 100%;
+  background-color: red !important;
+  border: none !important;
+  height: 47px;
+}
+
+/* about-us */
+section.cards {
+  margin-top: 100px;
+}
+.cards .card-body h1.card-heading {
+  text-transform: capitalize;
+  font-size: 24px;
+}
+.cards .card-body i {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.cards .card-body {
+  text-align: center;
+}
+.cards .card-body {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 30px;
+}
+.about-us-section .about-us-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-us-section h1.about-us {
+  text-transform: capitalize;
+  font-size: 41px;
+}
+h2.we-provide-text {
+  font-size: 23px;
+  text-transform: capitalize;
+}
+button.learn-more-btn {
+  width: 140px;
+  height: 43px;
+  border-radius: 4px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 19px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+img.about-us-img-right {
+  width: 100%;
+  border-radius: 5px;
+  height: 408px;
+}
+
+
+.test{
+  background-color: aquamarine;
+}
